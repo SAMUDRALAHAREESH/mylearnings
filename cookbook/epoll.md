@@ -1,4 +1,4 @@
-# Simple Non-Blocking TCP Server with Epoll
+# Epoll
 
 This guide explains a C program implementing a non-blocking TCP server using `epoll` for efficient event handling.
 
