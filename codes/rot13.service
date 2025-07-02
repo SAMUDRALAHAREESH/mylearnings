@@ -1,0 +1,15 @@
+[Unit]
+Description=ROT13 demo service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=samudrala
+ExecStart=/usr/bin/php /home/samudrala/rot13/server.php
+
+[Install]
+WantedBy=multi-user.target
+
